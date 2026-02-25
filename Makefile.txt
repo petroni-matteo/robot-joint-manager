@@ -1,0 +1,8 @@
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+robot_manager: main.c robot.c robot.h
+	$(CC) $(CFLAGS) main.c robot.c -o robot_manager
+
+clean:
+	rm -f robot_manager
