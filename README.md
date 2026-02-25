@@ -20,14 +20,15 @@ The system is modularized for scalability and maintainability:
 - **I/O Sanitization:** Buffer-clearing loops to prevent infinite crashes on wrong user inputs.
 - **Persistent Storage:** Save current manipulator configuration to a local file and reload it on boot.
 
+
+## Future Improvements
+* Porting the core logic to C++ using Object-Oriented Principles.
+
+* Encapsulating the application within a Docker container for cross-platform deployment.
+
 ## Build and Run (Linux / MacOS)
 To compile the system using the provided Makefile:
 ```bash
 make
 ./robot_manager
 
-
-Future Improvements
-Porting the core logic to C++ using Object-Oriented Principles.
-
-Encapsulating the application within a Docker container for cross-platform deployment.
